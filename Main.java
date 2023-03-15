@@ -1,5 +1,6 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello_world!");
+    String wyraz = "hello world";
+    System.out.println(wyraz.replace (' ','_'));
   }
 }
